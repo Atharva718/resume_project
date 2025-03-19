@@ -38,7 +38,7 @@ const Templates = ({ className, limit }: TemplatesProps) => {
       id: "tech",
       name: "Tech Innovator",
       description: "Modern design perfect for tech and innovation sectors",
-      image: "https://images.unsplash.com/photo-1626301688449-1fa979b69bf7?q=80&w=400&h=500&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=400&h=500&auto=format&fit=crop",
       category: "Technology"
     }
   ];

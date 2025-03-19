@@ -22,8 +22,8 @@ const Hero = ({ className }: HeroProps) => {
         <div className="flex flex-col items-center text-center space-y-8 max-w-3xl mx-auto">
           <div className="inline-flex items-center rounded-full border border-border/40 bg-background px-3 py-1 text-sm">
             <span className="flex items-center gap-1.5 text-foreground/80">
-              <Sparkles size={14} className="text-primary" />
-              AI-Powered Resume Builder
+              {/* <Sparkles size={14} className="text-primary" /> */}
+              
             </span>
           </div>
           

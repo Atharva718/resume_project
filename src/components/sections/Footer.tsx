@@ -19,7 +19,11 @@ const Footer = ({ className }: FooterProps) => {
               </span>
             </Link>
             <p className="mt-4 text-sm text-foreground/70">
-              Create professional resumes in minutes with our AI-powered builder.
+            <ol>Manthan Raut</ol>
+            <ol>Atharva Kapgate</ol>
+            <ol>Yash Dhande</ol>
+            <ol>Rushabh Katekhaye</ol>
+
             </p>
           </div>
           
