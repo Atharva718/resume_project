@@ -1,52 +1,67 @@
-# Welcome to your Lovable project
+# ResumeMaster
 
-## Project info
+ResumeMaster is a modern resume-building web application that allows users to create, edit, and enhance their resumes with AI-powered suggestions. It provides multiple resume templates and an intuitive interface for users to generate professional resumes easily.
 
+## 🚀 Features
+- **Resume Builder**: Create and edit resumes with an easy-to-use interface.
+- **AI Enhancement**: Improve resume content using AI-powered text suggestions.
+- **Multiple Templates**: Choose from a variety of professional resume templates.
+- **Export Options**: Download your resume as a **PDF** or print directly.
+- **User-Friendly Interface**: Responsive design with smooth navigation.
+- **Secure Storage**: User data is securely stored in the database.
 
-Follow these steps:
+---
 
+## 🛠️ Tech Stack
+**Frontend:**
+- React.js (Vite for fast build & development)
+- Tailwind CSS (For styling)
+- React Hooks & Context API (State Management)
+
+**Backend:**
+- Node.js & Express.js (For API handling)
+- MongoDB Atlas (Database for storing user resumes)
+- OpenAI API (For AI-powered resume enhancement)
+
+---
+
+## 📌 Installation & Setup
+### 1️⃣ Clone the Repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/your-username/resumemaster.git
+cd resumemaster
 ```
 
-**Edit a file directly in GitHub**
+### 2️⃣ Install Dependencies
+#### Frontend
+```sh
+cd frontend
+npm install
+npm run dev  # Starts Vite development server
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+#### Backend
+```sh
+cd backend
+npm install
+node server.js  # Starts the backend server
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
 
-This project is built with .
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### **Resume Operations**
+- `POST /save-resume` - Save user resume
+- `GET /get-resume/:id` - Fetch a saved resume
+- `POST /enhance-resume` - AI-enhanced resume content
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/09ee83b8-3564-4d2a-b0b5-3bebbe627b29) and click on Share -> Publish.
+## 📜 License
+This project is licensed under the **MIT License**.
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
